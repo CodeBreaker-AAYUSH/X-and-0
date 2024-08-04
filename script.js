@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const winSound = document.getElementById('win-sound');
   const tieSound = document.getElementById('tie-sound');
 
+  backgroundMusic.loop = true;
   backgroundMusic.play();
 
   boxes.forEach((box, index) => {
